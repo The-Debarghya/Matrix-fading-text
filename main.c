@@ -1,9 +1,9 @@
 #include<stdio.h>
 #include<stdlib.h>
+#include<unistd.h>
 #include<curses.h>
 #include "ui.h"
-#include<unistd.h>
-#include"matrix.h"
+#include "matrix.h"
 
 //#define iter 300
 #define REFRESH_DELAY 50000L
